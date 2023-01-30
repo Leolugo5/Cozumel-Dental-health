@@ -1,0 +1,91 @@
+@import './../../../Styles/params';
+
+.main-wrapper {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+
+    .main-hero-container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        .hero-content-video {
+            width: inherit;
+            height: inherit;
+            position: relative;
+
+            .video {
+                position: absolute;
+                width: inherit;
+                height: inherit;
+
+                .video-file {
+                    width: 100%;
+                    height: 100%;
+                    min-height: 105vh;
+                    object-fit: cover;
+                }
+            }
+        }
+        .description {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            background-color: transparent;
+            display: flex;
+            justify-content: flex-end;
+
+            .content {
+                width: 50%;
+                height: 100%;
+
+                .content-wrapper {
+                    padding: 0.5rem;
+                    // border: solid red;
+                    background-color: $color_3;
+                    box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
+                    -webkit-box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
+                    -moz-box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
+                    color: $text_color1;
+                    width: 60%;
+                    height: 60%;
+                    margin: auto;
+                    margin-top: 50%;
+                    transform: translatey(-50%);
+                    text-align: center;
+
+                    .title {
+                        color: $text_color1;
+                        font-size: 35.4px;
+                    }
+                    .details {
+                        height: 80%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+
+                        .top {
+                            color: white;
+                            font-size: 30px;
+                        }
+                        .center {
+                            font-size: 30px;
+                            font-weight: 800;
+                            color: $text_color_fade2;
+                        }
+                        .bottom {
+                            button {
+                                background-color: $color_4;
+                                border-style: none;
+                                border-radius: 30px;
+                                width: 80%;
+                                padding: 1rem 1.5rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

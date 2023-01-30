@@ -1,0 +1,77 @@
+@import '../../../Styles/params';
+
+.simple-contact-section-wrapper {
+    width: 100%;
+    max-width: 1600px;
+    background-color: $color_6;
+    padding: 5rem 0;
+
+    .inner-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: $color_4;
+        padding: 3rem 0;
+
+        .info {
+            display: flex;
+            flex-direction: column;
+
+            .info-content {
+                height: 60%;
+                display: flex;
+                justify-content: space-evenly;
+                flex-direction: column;
+
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    padding-left: 1rem;
+                    padding-bottom: 1.5rem;
+                }
+                label {
+                    transform: scale(0.9);
+                }
+                .social-media {
+                }
+            }
+        }
+        .map-wrapper {
+            .mapouter {
+                position: relative;
+                text-align: center;
+                height: 500px;
+                width: 600px;
+
+                .gmap_canvas {
+                    overflow: hidden;
+                    height: 500px;
+                    width: 600px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .simple-contact-section-wrapper {
+        padding: 1.5rem 0;
+        padding-bottom: 0rem;
+        .inner-wrapper {
+            flex-direction: column !important;
+
+            .map-wrapper {
+                padding-top: 3rem;
+                .mapouter {
+                    width: 100% !important;
+
+                    .gmap_canvas {
+                        margin: 0 auto;
+                        width: 80% !important;
+                    }
+                }
+            }
+        }
+    }
+}

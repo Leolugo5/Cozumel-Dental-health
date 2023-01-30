@@ -1,0 +1,33 @@
+@import '../../Styles/params';
+
+.mini-gallery-wrapper {
+    width: 100%;
+    height: fit-content;
+
+    .mini-gallery-main-pictures {
+        width: 100%;
+        gap: 0.3rem;
+        margin: 1rem;
+        background-color: white;
+
+        display: grid;
+        grid-auto-rows: 11rem;
+        grid-template-columns: repeat(3, 1fr);
+
+        .image-item-frame {
+            .picture-item {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .mini-gallery-wrapper {
+        .mini-gallery-main-pictures {
+            margin: 1rem 0;
+        }
+    }
+}
