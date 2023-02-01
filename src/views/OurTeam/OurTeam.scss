@@ -1,0 +1,106 @@
+@import '../../Styles/params';
+
+.our-team-main-wrapper {
+    width: 100%;
+    padding-top: 50px;
+    background-color: $color_5;
+
+    .inner-wrapper {
+        max-width: 1320px;
+        margin: 0 auto;
+        .max-w-wrapper {
+            background: url('../../media/BGS/SVGS/BG-svg-curve.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 115%;
+            margin: 0 auto;
+
+            .svg-inner-content {
+                width: 100%;
+                display: flex;
+                margin: 0 auto;
+                padding: 5rem 1rem;
+                flex-direction: row;
+                gap: 1rem;
+
+                .header-media {
+                    width: 40%;
+                    gap: 0.5rem;
+                    display: flex;
+                    flex-direction: column;
+
+                    .top {
+                        width: 100%;
+                        height: 50%;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    .bottom {
+                        width: 100%;
+                        height: 50%;
+                        display: flex;
+                        gap: 0.5rem;
+                        overflow: hidden;
+                        img {
+                            width: 50%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                }
+                .header-content {
+                    padding-top: 5rem;
+                    text-align: center;
+
+                    width: 40%;
+                    .subtitle {
+                        font-weight: 300;
+                        transform: scale(0.8);
+                        line-height: 60px;
+                    }
+                    button {
+                        border: none;
+                        color: $white;
+                        font-size: larger;
+                        padding: 1rem 3rem;
+                        border-radius: 30px;
+                        background-color: $color_6;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.component-wrapper {
+    .dentist-list {
+        background-color: $white;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .our-team-main-wrapper {
+        .inner-wrapper {
+            .max-w-wrapper {
+                width: 100% !important;
+                .svg-inner-content {
+                    flex-direction: column-reverse;
+
+                    .header-media {
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                    .header-content {
+                        padding: 5rem 0;
+                        width: 80%;
+                        margin: 0 auto;
+                    }
+                }
+            }
+        }
+    }
+}

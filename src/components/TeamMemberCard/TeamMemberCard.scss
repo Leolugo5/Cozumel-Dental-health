@@ -1,0 +1,164 @@
+@import '../../Styles/params';
+
+.team-card-wrapper {
+    background-color: $color_5;
+    border-top: 5px solid white;
+    margin-bottom: -5px;
+    .inner-wrapper {
+        width: 100%;
+        padding: 9rem 0;
+        margin: 5px auto;
+        min-height: 90vh;
+        border-bottom: 5px solid white;
+
+        .card-frame {
+            width: 90%;
+            margin: 0 auto;
+            min-height: 95vh;
+            display: flex;
+            flex-direction: row-reverse;
+
+            .media {
+                display: flex;
+                width: 50%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .card-content {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                .team-member-name {
+                    text-align: center;
+                }
+                .team-member-description {
+                    width: 60%;
+                    display: flex;
+                    margin: 0 auto;
+                    flex-direction: column;
+                    text-align: right;
+
+                    p {
+                        text-align: center;
+                        font-size: 1.5rem;
+                        padding-bottom: 2rem;
+                    }
+
+                    span {
+                        display: flex;
+                        flex-direction: column-reverse;
+
+                        span {
+                            font-size: 12px;
+                            color: gray;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .inner-wrapper:nth-child(odd) {
+        width: 100%;
+        padding: 9rem 0;
+        margin: 5px auto;
+        min-height: 90vh;
+        border-bottom: 5px solid white;
+
+        .card-frame {
+            width: 90%;
+            margin: 0 auto;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+
+            .media {
+                display: flex;
+                width: 50%;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+            .card-content {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+
+                .team-member-name {
+                    text-align: center;
+                }
+                .team-member-description {
+                    width: 80%;
+                    display: flex;
+                    margin: 0 auto;
+                    text-align: left;
+                    flex-direction: column;
+
+                    span {
+                        display: flex;
+                        flex-direction: column-reverse;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .team-card-wrapper {
+        .inner-wrapper {
+            height: 100%;
+            padding: 2rem 0;
+            .card-frame {
+                flex-direction: column;
+                min-height: 100% !important;
+
+                .media {
+                    width: 100% !important;
+                }
+                .card-content {
+                    padding-top: 2rem;
+                    width: 100% !important;
+
+                    .team-member-name {
+                        text-align: center;
+                    }
+                    .team-member-description {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .inner-wrapper:nth-child(odd) {
+            padding: 2rem 0;
+            .card-frame {
+                flex-direction: column;
+                min-height: 100% !important;
+
+                .media {
+                    width: 100% !important;
+                }
+                .card-content {
+                    padding-top: 2rem;
+                    width: 100% !important;
+
+                    .team-member-name {
+                        text-align: center;
+                    }
+                    .team-member-description {
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+}
