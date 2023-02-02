@@ -22,8 +22,8 @@ export default function HeroHomepage() {
                 Cozumel Dental Health
               </h1>
               <div className="details">
-                <div className="top">
-                  Doctor of Dental Medicine
+                <div className="top title-h3-g">
+                  Full Service Dental Office
                 </div>
                 <div className="center title-h3-g">
                   Reliable dentists to help you brighten your smile who speak both Spanish and English.

@@ -13,7 +13,7 @@ function App() {
         <NavigationBar />
         <Routes>
           <Route path="/" exact component element={<Home />} />
-          <Route path="/about-us" exact component element={<OurTeam />} />
+          <Route path="/our-team" exact component element={<OurTeam />} />
         </Routes>
         <Footer />
       </BrowserRouter>

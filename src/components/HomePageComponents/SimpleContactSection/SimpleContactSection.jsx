@@ -23,7 +23,7 @@ function SimpleContactSection() {
                 <div className="map-wrapper">
                     <div className="mapouter">
                         <div className="gmap_canvas">
-                            <iframe title="Map location of Cozumel Dental Health" width="500" height="400" id="gmap_canvas" src='https://maps.google.com/maps?q=Cozumel%20Dental%20Health,%2050%20Avenida%20Sur,%20Adolfo%20L%C3%B3pez%20Mateos,%20San%20Miguel%20de%20Cozumel,%20Quintana%20Roo&t=&z=15&ie=UTF8&iwloc=&output=embed' frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            <iframe title="Map location of Cozumel Dental Health" width="500" height="400" id="gmap_canvas" src='https://maps.google.com/maps?q=Cozumel%20Dental%20Health,%2050%20Avenida%20Sur,%20Adolfo%20L%C3%B3pez%20Mateos,%20San%20Miguel%20de%20Cozumel,%20Quintana%20Roo&t=&z=15&ie=UTF8&iwloc=&output=embed' frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0">
                             </iframe>
                         </div>
                     </div>
