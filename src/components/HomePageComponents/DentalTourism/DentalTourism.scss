@@ -12,6 +12,7 @@
             flex: 1;
             padding-left: 1.5rem;
             padding-top: 5rem;
+            gap: 1rem;
 
             .title {
                 width: 90%;
@@ -20,7 +21,6 @@
                     color: $white;
                 }
             }
-            gap: 1rem;
             .description {
                 P {
                     padding: 0.8rem;

@@ -16,17 +16,17 @@ function DentalTourism() {
                     </div>
                     <div className="description title-h2-g-alt">
                         <p>
-                        The biggest healthcare savings secret is out: traveling to mexico for affordable dentistry.
+                            The biggest healthcare savings secret is out: traveling to mexico for affordable dentistry.
                         </p>
                     </div>
                     <div className="description title-h2-g-alt">
                         <p>
-                        Mexico has been the premier destination for the u.s. and canadian patients looking for affordable and quality dental care.
+                            Mexico has been the premier destination for the u.s. and canadian patients looking for affordable and quality dental care.
                         </p>
                     </div>
                     <div className="description title-h2-g-alt">
                         <p>
-                        You can save thousands by coming to us for your dental needs.
+                            You can save thousands by coming to us for your dental needs.
                         </p>
                     </div>
                 </div>

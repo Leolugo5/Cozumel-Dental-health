@@ -1,5 +1,7 @@
 import React from 'react'
-import Dentist0123 from '../../media/BGS/Other/Dentist0123.jpg'
+import pic10 from '../../media/MiniGallery/TemporalPictures/pic10.jpg'
+import pic11 from '../../media/MiniGallery/TemporalPictures/pic11.jpg'
+import pic12 from '../../media/MiniGallery/TemporalPictures/pic12.jpg'
 import './WhyUs.scss'
 
 function WhyUs() {
@@ -15,44 +17,41 @@ function WhyUs() {
                     <ul className="list-items">
                         <li className='item'>
                             <div className="item-title">
-                                <h2 className='title-h2-g'>
-                                    Expertise
-                                </h2>
+                                <p className='title-h2-g'>
+                                    Expect to save thousands of dollars when coming to Mexico to meet your dental needs. Dental tourism is something everyone should look into considering the immense savings! We pride ourselves in providing 5-star dental care, all while saving our clients money.
+                                </p>
                             </div>
                             <div className="content">
-                                <p className='p-g1'>
-                                    Share what makes your business unique to set you apart from your competition.
+                                <div className="image-wrapper">
+                                    <img src={pic10} alt="mini gallery pic 10" />
+                                </div>
+                            </div>
+                        </li>
+                        <li className='item item-reverse'>
+                            <div className="item-title">
+                                <p className='title-h2-g'>
+                                    Our office includes professionals with over 25 years of experience working to perfect smiles. Here at Cozumel Dental Health, we provide exceptional service for each of our patients and their dental goals. For your benefit, our office has made itself available to be your hotspot for dental tourism.
                                 </p>
+                            </div>
+                            <div className="content">
+                                <div className="image-wrapper">
+                                    <img src={pic11} alt="mini gallery pic 10" />
+                                </div>
                             </div>
                         </li>
                         <li className='item'>
                             <div className="item-title">
-                                <h2  className='title-h2-g'>
-                                    Philosophy
-                                </h2>
-                            </div>
-                            <div className="content">
-                                <p className='p-g1'>
-                                    Share what makes your business unique to set you apart from your competition.
+                                <p className='title-h2-g'>
+                                    Our office has top quality dental treatments and procedures that use the latest and most practical technology for your procedure. Your dental care is our top priority and therefore we provide it to you with the best equipment.
                                 </p>
                             </div>
-                        </li>
-                        <li className='item featured'>
-                            <div className="item-title">
-                                <h2  className='title-h2-g'>
-                                    Technology
-                                </h2>
-                            </div>
                             <div className="content">
-                                <p className='p-g1'>
-                                    Share what makes your business unique to set you apart from your competition.
-                                </p>
+                                <div className="image-wrapper">
+                                    <img src={pic12} alt="mini gallery pic 10" />
+                                </div>
                             </div>
                         </li>
                     </ul>
-                    <div className="image">
-                        <img src={Dentist0123} alt="Dentist on cirjury" className='image-item' />
-                    </div>
                 </div>
             </div>
         </div>

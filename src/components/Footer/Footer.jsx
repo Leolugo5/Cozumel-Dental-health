@@ -9,8 +9,8 @@ function Footer() {
           <section className="top-section">
 
             <div className="services">
-              <div className="col-6 col-md-2 mb-3">
-                <h5>Services</h5>
+              <div className="col-6 col-md-2 mb-3 footer-subtitle">
+                <h5>Site Map</h5>
                 <ul className="nav flex-column">
                   <li className="nav-item mb-2"><a href='www.google.com' className="nav-link p-0 text-muted">Home</a></li>
                   <li className="nav-item mb-2"><a href='www.google.com' className="nav-link p-0 text-muted">Features</a></li>
