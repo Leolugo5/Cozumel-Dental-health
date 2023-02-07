@@ -12,7 +12,9 @@ export default function HeroHomepage() {
 
         <div className="hero-content-video">
           <div className="video">
-            <video src={HeroVideo} autoPlay loop muted className="video-file" />
+            <video autoPlay loop muted playsInline className="video-file" >
+              <source src={HeroVideo} />
+            </video>
           </div>
         </div>
         <div className="description">
