@@ -7,10 +7,8 @@ nav {
     // box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
     display: flex;
     position: fixed;
-    align-items: center;
-    justify-content: center;
     z-index: 10;
-    background-color: $color_4;
+    background-color: $color_5;
     box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.36);
     -webkit-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.36);
     -moz-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.36);
@@ -38,7 +36,6 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     text-transform: uppercase;
-    margin-bottom: 0;
 }
 .nav-links li .nav-link-item {
     text-decoration: none;
