@@ -26,6 +26,7 @@
 
                 .header-media {
                     width: 40%;
+                    height: 65vh;
                     gap: 0.5rem;
                     display: flex;
                     flex-direction: column;
@@ -91,12 +92,13 @@
                     flex-direction: column-reverse;
 
                     .header-media {
-                        width: 80%;
+                        width: 100%;
+                        height: 50vh;
                         margin: 0 auto;
                     }
                     .header-content {
                         padding: 5rem 0;
-                        width: 80%;
+                        width: 90%;
                         margin: 0 auto;
                     }
                 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import pic10 from '../../media/MiniGallery/TemporalPictures/pic10.jpg'
-import pic11 from '../../media/MiniGallery/TemporalPictures/pic11.jpg'
-import pic12 from '../../media/MiniGallery/TemporalPictures/pic12.jpg'
+import HomeP1 from '../../media/mainPhotos/HomeP1.jpg'
+import HomeP2 from '../../media/mainPhotos/HomeP2.jpg'
+import HomeP3 from '../../media/mainPhotos/HomeP3.jpg'
 import './WhyUs.scss'
 
 function WhyUs() {
@@ -23,7 +23,7 @@ function WhyUs() {
                             </div>
                             <div className="content">
                                 <div className="image-wrapper">
-                                    <img src={pic10} alt="mini gallery pic 10" />
+                                    <img src={HomeP1} alt="mini gallery pic 10" />
                                 </div>
                             </div>
                         </li>
@@ -35,7 +35,7 @@ function WhyUs() {
                             </div>
                             <div className="content">
                                 <div className="image-wrapper">
-                                    <img src={pic11} alt="mini gallery pic 10" />
+                                    <img src={HomeP2} alt="mini gallery pic 10" />
                                 </div>
                             </div>
                         </li>
@@ -47,7 +47,7 @@ function WhyUs() {
                             </div>
                             <div className="content">
                                 <div className="image-wrapper">
-                                    <img src={pic12} alt="mini gallery pic 10" />
+                                    <img src={HomeP3} alt="mini gallery pic 10" />
                                 </div>
                             </div>
                         </li>

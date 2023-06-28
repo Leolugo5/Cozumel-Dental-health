@@ -3,12 +3,11 @@
 nav {
     height: 6rem;
     width: 100vw;
-    background-color: transparent;
-    // box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+
     display: flex;
     position: fixed;
     z-index: 10;
-    background-color: $color_5;
+    background-color: $new_color_1;
     box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.36);
     -webkit-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.36);
     -moz-box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, 0.36);

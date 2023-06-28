@@ -29,34 +29,33 @@
             }
         }
         .description {
-            width: 100%;
-            height: 100%;
-            background-color: transparent;
-            display: flex;
+            display: grid;
             justify-content: flex-end;
 
             .content {
-                width: 50%;
+                width: 100%;
                 height: 100%;
+                padding-top: 100px;
 
                 .content-wrapper {
-                    padding: 0.5rem;
-                    // border: solid red;
-                    background-color: $color_3;
-                    box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
-                    -webkit-box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
-                    -moz-box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
-                    color: $text_color1;
+                    align-self: flex-end;
+                    display: grid;
                     width: 60%;
                     height: 60%;
                     margin: auto;
+                    padding: 2rem;
                     margin-top: 50%;
-                    transform: translatey(-50%);
                     text-align: center;
+                    color: $text_color1;
+                    background-color: $color_3;
+                    transform: translatey(-50%);
+
+                    box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
+                    -webkit-box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
+                    -moz-box-shadow: 0px 0px 58px 13px rgba(0, 0, 0, 0.2) inset;
 
                     .title {
                         color: $text_color1;
-                        font-size: 35.4px;
                     }
                     .details {
                         height: 80%;
@@ -93,6 +92,42 @@
             .description {
                 .content {
                     .content-wrapper {
+                        width: 75%;
+                        height: 75%;
+                        margin: auto;
+                        margin-top: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-wrapper {
+        .main-hero-container {
+            .description {
+                .content {
+                    .content-wrapper {
+                        width: 75%;
+                        height: 75%;
+                        margin: auto;
+                        margin-top: 70%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 360px) {
+    .main-wrapper {
+        .main-hero-container {
+            .description {
+                .content {
+                    .content-wrapper {
+                        width: 75%;
+                        height: 75%;
+                        margin: auto;
+                        margin-top: 100%;
                     }
                 }
             }

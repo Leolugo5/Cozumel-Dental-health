@@ -20,7 +20,7 @@ export default function HeroHomepage() {
         <div className="description">
           <div className="content">
             <div className="content-wrapper">
-              <h1 className="title-h1-g">
+              <h1 className="title-h1-g title">
                 Cozumel Dental Health
               </h1>
               <div className="details">

@@ -1,10 +1,10 @@
 @import '../../Styles/params';
 
 .team-card-wrapper {
-    background-color: $color_5;
     border-top: 5px solid white;
-    margin-bottom: -5px;
+    margin-bottom: -3px;
     .inner-wrapper {
+        background-color: $new_color_1;
         width: 100%;
         padding: 9rem 0;
         margin: 5px auto;
@@ -69,6 +69,7 @@
         margin: 5px auto;
         min-height: 90vh;
         border-bottom: 5px solid white;
+        background-color: $color_5;
 
         .card-frame {
             width: 90%;
