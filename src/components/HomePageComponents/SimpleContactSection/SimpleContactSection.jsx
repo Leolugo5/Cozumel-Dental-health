@@ -17,7 +17,7 @@ function SimpleContactSection() {
                         <label className='title-h2-g-alt' htmlFor="address">Address</label>
                         <a href="https://goo.gl/maps/9JLSETBxYVwNtayaA" target='blank'>Avenida 50MA Sur, San Miguel de Cozumel, Mexico, 77667</a>
                         <label className='title-h2-g-alt' htmlFor="celphone ">Phone</label>
-                        <a href="tel:+">+52 1 (987) 138 4893</a>
+                        <a href="tel:+529871384893">+52 1 (987) 138 4893</a>
                         <label className='title-h2-g-alt' htmlFor="email ">Email</label>
                         <a href="mailto:">cozumeldentalhealth@gmail.com</a>
                         {/* <label className='title-h2-g-alt' htmlFor="Social ">Social</label>
